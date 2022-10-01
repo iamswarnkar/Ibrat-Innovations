@@ -1,0 +1,52 @@
+.img-container {
+  margin-top: 7%;
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.excercise-img {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 70%;
+  border: 2px solid gray;
+  position: relative;
+}
+
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  color:aqua;
+}
+
+
+.text {
+  position: absolute;
+  top: 98%;
+}
+.title svg {
+  position: absolute;
+  top: 10%;
+  right: 8%;
+  opacity: 1;
+}
+
+.excercise-img img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.content img:hover{
+  width: 150%;
+}
+
+.content:hover {
+  width: 90%;
+}
